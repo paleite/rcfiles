@@ -1,0 +1,7 @@
+{
+  "concurrent": false,
+  "linters": {
+    "*.{,m}js": ["npx prettier-eslint --write", "npx eslint", "git add"],
+    "{,.}*{rc,.json}": ["npx prettier-eslint --write", "git add"]
+  }
+}

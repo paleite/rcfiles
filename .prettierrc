@@ -4,7 +4,13 @@
   "semi": false,
   "overrides": [
     {
-      "files": [".babelrc", ".postcssrc", ".posthtmlrc", ".prettierrc"],
+      "files": [
+        ".babelrc",
+        ".lintstagedrc",
+        ".postcssrc",
+        ".posthtmlrc",
+        ".prettierrc"
+      ],
       "options": {"parser": "json"}
     }
   ]
